@@ -28,9 +28,9 @@ body {
 }
 
 /* This css is only applied when fullscreen is active. */
-.player:fullscreen {
+.makefullscreen {
   max-width: none;
-  width: 100%;
+  width: 86%;
 }
 
 .player:-webkit-full-screen {
@@ -101,7 +101,7 @@ body {
   width: 50%;
   background: #ffc600;
   flex: 0;
-  flex-basis: 50%;
+  flex-basis: 0%;
 }
 
 /* unholy css to style input type="range" */
